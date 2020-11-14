@@ -6,10 +6,10 @@ addTask = function(){
     }else{
       document.getElementById('taskList').innerHTML=`<li class="list-group-item">
     <div class="row">
-      <div class="col-8">
+      <div class="col-9">
         <p>${task}</p>
       </div>
-      <div class="col-4">
+      <div class="col-3">
         <button class="btn btn-danger rounded" onclick="deleteTask(this)">Delete</button>
       </div>
     </div>
